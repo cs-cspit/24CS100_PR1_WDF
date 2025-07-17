@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Faculty Feedback Form</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <center>
+      <img src="charusat logo.jpg" alt="Charusat Logo" width="700" height="90">
+      
+      <h2>Faculty Feedback Form</h2>
+      <link rel="stylesheet" href="style.css" />
+    </center>
+  </header>
+
+  
+
+  <br><hr><br>
+
+  <!-- Feedback Form -->
+  <main>
+    <center>
+      <form action="dashboard-student.html" method="POST">
+        <table border="0" cellpadding="8">
+          <tr>
+            <td><label for="studentName">Your Name:</label></td>
+            <td><input type="text" id="studentName" name="studentName" required></td>
+          </tr>
+
+          <tr>
+            <td><label for="facultyName">Faculty Name:</label></td>
+            <td><input type="text" id="facultyName" name="facultyName" required></td>
+          </tr>
+
+          <tr>
+            <td><label for="subject">Subject Taught:</label></td>
+            <td><input type="text" id="subject" name="subject" required></td>
+          </tr>
+
+          <tr>
+            <td>Clarity of Teaching:</td>
+            <td>
+              <input type="radio" name="clarity" value="Excellent" required> Excellent
+              <input type="radio" name="clarity" value="Good"> Good
+              <input type="radio" name="clarity" value="Average"> Average
+              <input type="radio" name="clarity" value="Poor"> Poor
+            </td>
+          </tr>
+
+          <tr>
+            <td>Interaction with Students:</td>
+            <td>
+              <input type="radio" name="interaction" value="Excellent" required> Excellent
+              <input type="radio" name="interaction" value="Good"> Good
+              <input type="radio" name="interaction" value="Average"> Average
+              <input type="radio" name="interaction" value="Poor"> Poor
+            </td>
+          </tr>
+
+          <tr>
+            <td>Punctuality:</td>
+            <td>
+              <input type="radio" name="punctuality" value="Excellent" required> Excellent
+              <input type="radio" name="punctuality" value="Good"> Good
+              <input type="radio" name="punctuality" value="Average"> Average
+              <input type="radio" name="punctuality" value="Poor"> Poor
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="comments">Additional Comments:</label></td>
+            <td><textarea id="comments" name="comments" rows="4" cols="50" placeholder="Your feedback..."></textarea></td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">
+              <input type="submit" value="Submit Feedback">
+            </td>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </main>
+
+  <br><hr><br>
+
+  <!-- Footer -->
+  <footer>
+    <center>
+      <p>&copy; 2025 CHARUSAT University. All rights reserved.</p>
+    </center>
+  </footer>
+
+</body>
+</html>
